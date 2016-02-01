@@ -5,10 +5,17 @@ function setup(){
 }
 
 function draw(){
+
+
+
   background(255, 140, 102);
+  rect(50,150)
+  fill("lightgray")
+  rect(50,150,900,700);
   fill("purple")
-rect(624,300,275,300)
-  stroke("white");
+  rect(624,300,275,300)
+  stroke("gray");
+  strokeWeight(4)
   fill("black");
   ellipse(400,500,600,600);//outer circle
 
@@ -152,7 +159,7 @@ rect(624,300,275,300)
 
   //left side
   //start back here
-  stroke("gray");
+  stroke("white");
   line(115,590,400,490);
   line(110,580,380,496);
   line(109,569,380,496);
@@ -178,7 +185,7 @@ rect(624,300,275,300)
   line(104,545,380,496);
   line(103,544,380,496);
   line(103,543,380,496);
-  stroke("lightgray")
+  stroke("white")
   line(103,542,380,496);
   line(103,541,380,496);
   line(103,540,380,496);
@@ -311,11 +318,12 @@ rect(624,300,275,300)
   ellipse(750,540,10,10)
   ellipse(750,520,10,10)
   noFill()
-  arc(750,520,20,20,HALF_PI,PI)
+  arc(750,520,20,20,3.2, 0, HALF_PI,PI);
+  arc(750,540,20,20,3.2,0, HALF_PI,PI);
 
   fill("skyblue")
   rect(500,900,900,200)
-  strokeWeight(8)
+  strokeWeight(20)
   line(500,900,700,1100)//beginning of W
   line(700,1100,600,890)
   line(600,900,800,1100)
@@ -330,9 +338,18 @@ rect(624,300,275,300)
   line(1050,1100,1150,1100)
   line(950,900,1050,900)
 //BEGIN HERE
-  arc(1200,1100,500,500,0,HALF_PI,PI)
 stroke("lightgray")
+  arc(1235,1050,140,100,-1.3,3.1,HALF_PI,PI)
+  arc(1210,945,250,105,2.9,-1.9,HALF_PI,PI)
+  line(1104,972,1246,1000)
 
+
+strokeWeight(10)
+stroke("gray")
+noFill()
+ellipse(400,500,600,600)
+
+stroke("lightgray")
   fill("white")
   ellipse(850,500,25,25)
   strokeWeight(13)
@@ -343,6 +360,13 @@ stroke("lightgray")
   rect(425,615,40,20)//head-shell
   strokeWeight(2)
 line(697,550,900,550);//inside line
+
+strokeWeight(4)
+stroke("black")
+line(863,513,880,530)//handle on circle near volume
+
+rect
+
 
 
 }
