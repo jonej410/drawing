@@ -285,7 +285,7 @@ function draw(){
   fill("green");
   ellipse(400,500,200,200);//inner circle
   ellipse(400,500,185,185)
-
+  strokeWeight(3)
   fill("white");
   ellipse(400,500,20,20);//inner inner circle
 
@@ -317,6 +317,10 @@ function draw(){
   line(850,537,850,550)
   ellipse(750,540,10,10)
   ellipse(750,520,10,10)
+  ellipse(730,540,3,3)//top lil dot
+  ellipse(725,520,1,1)//top lil lil dot
+  ellipse(730,520,3,3)//bottom lil dot
+  ellipse(725,540,1,1)//bottom lil lil dot
   noFill()
   arc(750,520,20,20,3.2, 0, HALF_PI,PI);
   arc(750,540,20,20,3.2,0, HALF_PI,PI);
@@ -359,14 +363,13 @@ stroke("lightgray")
   fill("skyblue")
   rect(425,615,40,20)//head-shell
   strokeWeight(2)
-line(697,550,900,550);//inside line
+line(701,550,900,550);//inside line
+strokeWeight(1)
+line(700,552,900,552)
 
 strokeWeight(4)
 stroke("black")
 line(863,513,880,530)//handle on circle near volume
-
-rect
-
 
 
 }
