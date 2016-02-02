@@ -322,9 +322,13 @@ function draw(){
   ellipse(730,520,3,3)//bottom lil dot
   ellipse(725,540,1,1)//bottom lil lil dot
   noFill()
+  stroke("black")
+  strokeWeight(1)
+  line(730,500,770,500)
   arc(750,520,20,20,3.2, 0, HALF_PI,PI);
   arc(750,540,20,20,3.2,0, HALF_PI,PI);
 
+stroke("lightgray")
   fill("skyblue")
   rect(500,900,900,200)
   strokeWeight(20)
@@ -352,8 +356,38 @@ strokeWeight(10)
 stroke("gray")
 noFill()
 ellipse(400,500,600,600)
+strokeWeight(4.4)
+stroke("black")
+line(829,364,819,398)
+strokeWeight(8.4)
+line(820,392,818,399)
+stroke("lightgray")
+strokeWeight(5)
+arc(780,310,108,119,1.4,2.5,HALF_PI,PI)
+fill("lightgray")
+ellipse(790,372,10,10)
+rect(780,354,50,7)
+ellipse(833,358,7,7)
+line(829,358,829,400)
+strokeWeight(9)
+line(829,393,829,400)
+noStroke()
+ellipse(840,390,3,3)
+ellipse(840,380,3,3)
+strokeWeight(1)
+stroke("black")
+line(836,394,844,394)
+line(836,384,844,384)
+
+
+rect(720,390,60,60,0,0,0,10)
+noFill()
+strokeWeight(1.5)
+rect(725,396,50,50,0,0,0,10)
+
 
 stroke("lightgray")
+strokeWeight(10)
   fill("white")
   ellipse(850,500,25,25)
   strokeWeight(13)
