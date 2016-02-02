@@ -164,7 +164,6 @@ function draw(){
   line(110,580,380,496);
   line(109,569,380,496);
   line(106,559,380,496);
-  stroke("white")
   //begin in between
   line(106,558,380,496);
   line(106,557,380,496);
@@ -178,14 +177,12 @@ function draw(){
   //end of between
   line(104,549,380,496);
   //next in between
-
   line(104,548,380,496);
   line(104,547,380,496);
   line(104,546,380,496);
   line(104,545,380,496);
   line(103,544,380,496);
   line(103,543,380,496);
-  stroke("white")
   line(103,542,380,496);
   line(103,541,380,496);
   line(103,540,380,496);
@@ -270,7 +267,7 @@ function draw(){
   line(175,302,380,496);
   line(176,301,380,496);
   line(177,300,380,496);
-//end of in between
+  //end of in between
   line(177,299,380,496);
   line(187,289,380,496);
   line(197,279,380,496);
@@ -328,8 +325,8 @@ function draw(){
   arc(750,520,20,20,3.2, 0, HALF_PI,PI);
   arc(750,540,20,20,3.2,0, HALF_PI,PI);
 
-stroke("lightgray")
-line(1104,972,1246,1000)
+  stroke("lightgray")
+  line(1104,972,1246,1000)
   fill("skyblue")
   rect(500,900,900,200)
   strokeWeight(20)
@@ -347,8 +344,8 @@ line(1104,972,1246,1000)
   line(1050,1100,1150,1100)
   line(950,900,1050,900)
   stroke("lightgray")
-  arc(1210,945,250,120,2.9,-1.6,HALF_PI,PI)
-  arc(1235,1058,140,83,-1.3,3.1,HALF_PI,PI)//beginning of S
+  arc(1210,960,250,120,2.9,-1.6,HALF_PI,PI)
+  arc(1235,1058,140,83,-1.6,2.9,HALF_PI,PI)//beginning of S
 
 
 
