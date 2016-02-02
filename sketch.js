@@ -329,6 +329,7 @@ function draw(){
   arc(750,540,20,20,3.2,0, HALF_PI,PI);
 
 stroke("lightgray")
+line(1104,972,1246,1000)
   fill("skyblue")
   rect(500,900,900,200)
   strokeWeight(20)
@@ -345,11 +346,11 @@ stroke("lightgray")
   line(1050,1000,950,1000)
   line(1050,1100,1150,1100)
   line(950,900,1050,900)
-//BEGIN HERE
-stroke("lightgray")
-  arc(1235,1050,140,100,-1.3,3.1,HALF_PI,PI)
-  arc(1210,945,250,105,2.9,-1.9,HALF_PI,PI)
-  line(1104,972,1246,1000)
+  stroke("lightgray")
+  arc(1210,945,250,120,2.9,-1.6,HALF_PI,PI)
+  arc(1235,1058,140,83,-1.3,3.1,HALF_PI,PI)//beginning of S
+
+
 
 
 strokeWeight(10)
