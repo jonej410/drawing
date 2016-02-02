@@ -22,20 +22,6 @@ function draw(){
   //right side
   stroke("white");
   line(400,500,600,720);
-
-
-
-
-
-
-
-
-
-
-
-
-
-  stroke("white");
   line(410,510,679,390);
   line(410,510,682,400);
   line(410,510,686,410);
@@ -153,12 +139,7 @@ function draw(){
   line(410,510,618,705);
   line(410,510,610,713);
 
-
-
-
-
   //left side
-  //start back here
   stroke("white");
   line(115,590,400,490);
   line(110,580,380,496);
@@ -176,7 +157,7 @@ function draw(){
   line(104,550,380,496);
   //end of between
   line(104,549,380,496);
-  //next in between
+  //in between
   line(104,548,380,496);
   line(104,547,380,496);
   line(104,546,380,496);
@@ -196,7 +177,6 @@ function draw(){
   line(100,479,380,496);
   line(101,469,380,496);
   line(102,459,380,496);
-  stroke("white");
   line(104,449,380,496);
   //in between
   line(104,448,380,496);
@@ -210,7 +190,7 @@ function draw(){
   line(106,440,380,496);
   //end of in between
   line(106,439,380,496);
-  //second in between
+  //in between
   line(106,438,380,496);
   line(106,437,380,496);
   line(107,436,380,496);
@@ -220,7 +200,7 @@ function draw(){
   line(108,432,380,496);
   line(108,431,380,496);
   line(108,430,380,496);
-  //end of second in between
+  //end of in between
   line(108,429,380,496);
   //third in between
   line(108,428,380,496);
@@ -232,9 +212,8 @@ function draw(){
   line(110,422,380,496);
   line(111,421,380,496);
   line(111,420,380,496);
-  //end of thrid in between
+  //end of in between
   line(111,419,380,496);
-  stroke("white")
   line(114,409,380,496);
   line(117,399,380,496);
   line(121,389,380,496);
@@ -274,8 +253,6 @@ function draw(){
   line(207,269,380,496);
   line(218,262,380,496);
   line(230,252,380,496);
-
-
 
 
   stroke("black");
@@ -345,7 +322,7 @@ function draw(){
   line(950,900,1050,900)
   stroke("lightgray")
   arc(1210,960,250,120,2.9,-1.6,HALF_PI,PI)
-  arc(1235,1058,140,83,-1.6,2.9,HALF_PI,PI)//beginning of S
+  arc(1243,1058,158,83,-1.6,2.9,HALF_PI,PI)//beginning of S
 
 
 
@@ -384,8 +361,8 @@ strokeWeight(1.5)
 rect(725,396,50,50,0,0,0,10)
 
 
-stroke("lightgray")
-strokeWeight(10)
+  stroke("lightgray")
+  strokeWeight(10)
   fill("white")
   ellipse(850,500,25,25)
   strokeWeight(13)
@@ -395,13 +372,13 @@ strokeWeight(10)
   fill("skyblue")
   rect(425,615,40,20)//head-shell
   strokeWeight(2)
-line(701,550,900,550);//inside line
-strokeWeight(1)
-line(700,552,900,552)
+  line(701,550,900,550);//inside line
+  strokeWeight(1)
+  line(700,552,900,552)
 
-strokeWeight(4)
-stroke("black")
-line(863,513,880,530)//handle on circle near volume
+  strokeWeight(4)
+  stroke("black")
+  line(863,513,880,530)//handle on circle near volume
 
 
 }
